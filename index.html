@@ -30,19 +30,31 @@
 
 </head>
 <body>
-	<header role="banner">
-    	<h1>{{title}}</h1>
-	</header>
-	<main role="main">
-    	<div class="uk-container uk-container-center">
-    		<div class="uk-grid" data-uk-grid-margin>
-    			<div class="uk-width-medium-1-1">{{logo}}</div>
-    			<div class="uk-width-medium-1-2">{{col 1}}<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    			<div class="uk-width-medium-1-2">{{col 2}}<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    
+    <div class="uk-container uk-container-center">
+    	
+    	<header role="banner" class="uk-grid" data-uk-grid-margin>
+    		<div class="uk-width-medium-1-1">
+                <h1>{{title}}</h1>
     		</div>
-    	</div>
-	</main>
-	<footer role="contentinfo"></footer>
+        </header>
+    	
+    	<main role="main" class="uk-grid"  data-uk-grid-margin>
+    	
+    		<div class="uk-width-medium-1-1">{{logo}}</div>
+    		<div class="uk-width-medium-1-2">{{col 1}}<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    		<div class="uk-width-medium-1-2">{{col 2}}<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        	
+    	</main>
+    	
+    	<footer role="contentinfo" class="uk-grid" data-uk-grid-margin>
+        	<div class="uk-width-1-1">{{footer}}</div>
+    	</footer>
+    	
+    </div>
+	
+	
+	
 	
 	<!-- jQuery-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
